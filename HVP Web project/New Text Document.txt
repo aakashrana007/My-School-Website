@@ -1,0 +1,18 @@
+<h3><left>Contact Us</left></h3>
+<br><a href="https://www.facebook.com/pages/category/Education/Hindu-Vidyapeeth-Nepal-Thali-Kathmandu-334614716983867/"><img src="images.png" alt="Facebook" style="width:50px;height:50px;"></a>
+<img src="download.png" alt="Phone" style="width:50px;height:50px;"><big>01-4450745</big>
+
+h3{
+   background-color:green;
+  color:white;
+  font: bold 200% sans-serif;
+}
+
+
+<H1><img src="Untitled-1-removebg-preview.png" width="150px" height="150px"><br>Hindu Vidhyapeeth Nepal<br>Kageshwori-Manohara-04,KTM</H1>
+<b>
+<p1><marquee>Arise, Awake, Stop not till the Goal is reached</marquee></p1>
+<h2><center><div id="content">About Us</div></center></h2>
+<p2><img src="building.jpg" style="float:left;width:500px;height:300px;border:5px solid #555;"><img src="sshool.jpg" style="float:right;width:500px;height:300px;border:5px solid #555;"><center>Hindu-Vidyapeeth  (HVP)-Nepal Secondary School, situated in Thali, Danchhi, Kathmandu, was established in 2046 B.S. by Hindu-Vidyapeeth Nepal (HVP)  Trust. Since it was established it has been providing quality education in accordance with the values of the organization.  It is affiliated with the National Examination Board (NEB) and is offering 10+2 programme in Humanities and Management stream, unique among the HVP schools.Hindu-Vidyapeeth Nepal (HVP) is an Educational Trust run on a non-profit basis by Matribhoomi Sevek Sangh (MSS), a socio-cultural organization.</center></p2>
+<br>
+<hr>

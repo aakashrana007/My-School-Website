@@ -1,0 +1,284 @@
+
+body {
+ background-color:#B31B1B;
+ background-size:cover;
+ background-attachment:fixed;
+}
+header{
+  background-color: rgba(0,0,0,0.1);
+  height: 35px;
+}
+.arise{
+  background-color: yellow;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  float: right;
+  list-style-type: none;
+  margin-top: 20px;
+
+}
+.main li{
+display: inline-block;
+}
+.main li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1.5px solid white;
+}
+.main li a:hover{
+  background-color: white;
+  color:black;
+  transition: 0.6s ease;
+}
+.main li.active a{
+  background-color: white;
+  color:black;
+}
+h1 {
+  width: 25%;
+ color:   white;
+ text-align: left;
+ font: bold 100% Times New Roman Georgia;
+}
+
+
+
+
+
+
+.mid{
+    width: 60%;
+    padding: 72px 0 72px 0;
+   background-color: #013220;
+   float: left;
+   clear: both;
+}
+.box1{
+  width: 300px;
+  height: 450px;
+  background-color: #C19A6B;
+  float: right;
+  border: 5px solid #D2691E;
+  box-shadow: 10px 10px;
+  position: absolute;
+  right: 75px;
+}
+h1.jpt{
+  text-decoration: underline;
+  letter-spacing: 0.15em;
+  color: #B31B1B;
+  font: bold 40px;
+  text-align: center;
+  margin-left: 95px;
+}
+h2.jpt{
+    color: #F5F5F5;
+  font:bold 125% Comic Sans MS;
+  text-align:center;
+}
+h3.jpt{
+   color: black;
+   font: italic 20px;
+   text-align: center;
+}
+.box1 .ophoto{
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   border-radius: 50%;
+
+
+}
+/* .mid1{
+  width: 300px;
+  height: 450px;
+  background-color: #C19A6B;
+  float: right;
+  border: 5px solid #D2691E;
+  box-shadow: 10px 10px;
+  position: absolute;
+  right: 75px;
+} */
+.mid1 .col-md-2{
+  /* width: 33.333%; */
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-bottom: 20px;
+  float: center;
+}
+.mid1 .col-md-2.zcon{
+    float: left;
+    padding-top: 15px;
+}
+.mid1 .col-md-2 .text-box-2{
+  float: right;
+  padding-bottom: 10px;
+}
+h2{
+  color: #F5F5F5;
+  font:bold 150% Comic Sans MS;
+  text-align:center;
+}
+h4{
+   color: #F5F5F5;
+  font:bold;
+}
+p4{
+  color: white;
+}
+
+
+.full-dark{
+  width: 100%;
+  padding: 50px 0 50px 0;
+  background-color: #960018;
+  float: left;
+  clear: both;
+  display: flex;
+}
+h3{
+  color: #FFBCD9;
+  font-size: 20px;
+}
+.full-dark .col-md-1{
+  float: left;
+  width: 33.333%;
+  /* padding-right:15%;
+  padding-left: 15%; */
+  color: #F7E7CE;
+  float: left;
+}
+
+.full-dark .col-md-2 {
+  float: center;
+  width: 33.333%;
+  /* padding-right:15%;
+  padding-left: 15%; */
+  color: #F7E7CE;
+  float: left;
+}
+.full-dark .col-md-3 {
+  float: right;
+  width: 33.333%;
+  /* padding-right:15%;
+  padding-left: 15%; */
+  color: #F7E7CE;
+  float: left;
+}
+#dark-box-1{
+  float: center;
+  margin: 0px 15px 0px 15px;
+  color:#01d7a7 !important;
+  font-size: 16px;}
+
+
+
+.gallery{
+ width: 100%;
+ background-color: #FAE7B5;
+ float: left;
+ clear: both;
+ padding-left: 55px;
+}
+h5{
+  text-align: center;
+  color: #16161D;
+  font: bold Courier New;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+.gallery p{
+  text-align: center;
+  color: brown;
+  font:bold 200% Courier;
+}
+
+
+.gallery .life .box{
+  width: 340px;
+  height: 190px;
+  float: left;
+  border: 5px solid brown;
+  padding: 3px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.gallery .life .box:hover{
+  background-color:rgba(0,0,0,0.5);
+  transition:0,7s ease;
+}
+
+
+
+.faculty{
+  width: 100%;
+
+}
+.aboutus{
+  width: 100%;
+  background-color: lightgrey;
+
+}
+.aboutus h2{
+  color: #1B1811;
+    font:bold 200% Comic Sans MS;
+  text-align:center;
+}
+/* #events{
+  
+} */
+
+#emailForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#emailForm input[type="email"],
+#emailForm input[type="text"],
+#emailForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#emailForm textarea {
+  height: 150px;
+}
+
+#emailForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#emailForm button:hover {
+  background-color: #0056b3;
+}
+
+#emailForm button:active {
+  background-color: #004080;
+}
+
+/* Optional: Add hover effect to input fields */
+#emailForm input[type="email"]:hover,
+#emailForm input[type="text"]:hover,
+#emailForm textarea:hover {
+  border-color: #66afe9;
+}

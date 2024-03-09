@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="mystyle.css">
+<script src="https://kit.fontawesome.com/efcdd6c43d.js" crossorigin="anonymous"></script>
+</head>
+<BODY>
+
+<TITLE>Faculties</TITLE>
+<header>
+	<p1><marquee>Arise, Awake, Stop not till the Goal is reached</marquee></p1>
+	<div class="main">
+<ul>
+		<li><a href="index1.html">Home</a></li>
+		<li><a href="#">Events</a></li>
+        <li><a href="faculties.html">Faculties</a></li>
+        <li class="active"><a href="#">Contact</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+</ul>
+	</div>
+</header>
+
+<H1><img src="logo.png" width="125px"><br> Hindu Vidhyapeeth Nepal<br>Kageshwori-Manohara-04,KTM</H1>
+<br>
+<form id="emailForm">
+    <input type="email" id="recipient" placeholder="Recipient Email" required><br>
+    <input type="text" id="subject" placeholder="Subject" required><br>
+    <textarea id="body" placeholder="Message" required></textarea><br>
+    <button type="button" onclick="sendEmail()">Send Email</button>
+</form>
+
+<script>
+function sendEmail() {
+    var recipient = document.getElementById("recipient").value;
+    var subject = document.getElementById("subject").value;
+    var body = document.getElementById("body").value;
+    
+    var mailtoLink = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    
+    window.location.href = mailtoLink;
+
+	  // Display an alert after sending email
+	  window.alert("Email sent!");
+}
+</script>
+
+
+<br>
+<hr>
+<section class="full-dark">
+		<div class="col-md-1">
+		  <img src="logo.png" width="150px"><br>
+		   <a href="https://www.facebook.com/pages/category/Education/Hindu-Vidyapeeth-Nepal-Thali-Kathmandu-334614716983867/"><img src="facebook.svg" alt="Facebook" style="width:35px;height:35px; padding: 2px;"></a>
+		   <a href="https://www.youtube.com/channel/UCf2yOsT7oA0l7obaZ0tKT9A"><img src="youtube.svg" alt="YouTube" style="width:35px;height:35px; padding: 2px;"></a>
+        </div>
+<div class="col-md-2">
+		  <h3><img src="user-shield-alt-svgrepo-com.svg" style="width:45px;height:45px; padding: 5px;">Administration</h3>
+		  <div class="dark-box-1">
+		  	 
+		  	 <p>Raj Kumar Shrestha<br>
+		  	    Krishna Yogi<br>
+		  	    Surendra Khadka<br>
+		  	    Anil Pokhrel</p>
+		  </div>
+        </div>
+<div class="col-md-3">
+		  <div class="dark-box-1">
+			<h3><img src="contact.svg" style="width:45px; height:45px; padding: 5px;">Contact Us</h3>
+		  	 
+		  	 <img src="telephone.svg" style="width:35px;height:35px; ">01-4450745<br>
+		  	 <img src="location.svg" style="width:35px;height:35px;">Thali,Danchhi,KTM<br>
+		  </div>
+        </div>
+	
+
+
+</section>
+</BODY>
+</HTML>
